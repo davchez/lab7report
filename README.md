@@ -3,5 +3,5 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ## Step 1: (setup) Fork the repository
 
-![Image](fork.png)
+![Image](lab7report/fork.png)
 
