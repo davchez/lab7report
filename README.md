@@ -25,6 +25,8 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 > Successfully logged into the UCSD ieng6 server.
 
+<br>
+
 ## Step 3: Clonng my fork of the repository from my Github account
 
 ![Image](lab7report/gitclone.png)
