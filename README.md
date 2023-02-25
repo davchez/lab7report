@@ -57,7 +57,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 > (Actual keys pressed below.)  Accessed the nano terminal editing screen to change line 43 from "index1 += 1" to "index2 += 1", which was the cause of the time-out error on the JUnit test.
 
-> _Keys pressed:_ `pressed <down> 43 times to reach line 43 where the error existed.  pressed <right> 14 times to change "index1" to "index2"`
+> _Keys pressed:_ `pressed <down> 43 times, pressed <right> 14 times, <backspace>`
 
 ![Image](lab7report/nanoedit.png)
 
@@ -81,7 +81,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/recompile.png)
 
-> (Actual keys pressed below).  Pressed up seven times due to incorrect inputs prior to this screenshot, then accessed the JUnit compile command.  Pressed up seven times again to access the JUnit run command on the JUnit file ListExamplesTests, which ran successfully and without any errors.
+> (Actual keys pressed below).  Pressed up seven times due to incorrect inputs/pastes prior to this screenshot, then accessed the JUnit compile command.  Pressed up seven times again to access the JUnit run command on the JUnit file ListExamplesTests, which ran successfully and without any errors.
 
 > _Keys pressed:_ `<up><up><up><up><up><up><up><enter>, <up><up><up><up><up><up><up><enter>`
 
@@ -90,5 +90,13 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 ## Step 7: Committing and pushing the resulting change to my Github account
 
 ![Image](lab7report/gitaddcommit.png)
+
+> Typed the `git add *` command to add all existing and new changes to the next commit.  Typed the `git commit -m` command with an update message after `-m`.  Indirectly, this avoids forcing the Visual Studio code editor into the VIM interface, which is ultimately not that easy to work with.  
+
 ![Image](lab7report/gitpush.png)
+
+> Typed the `git push` command to push all committed changes to the GitHub repository.
+
 ![Image](lab7report/gitresult.png)
+
+> Successfully updated necessary .java files and added new .class files from the compilation in Bash.
