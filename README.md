@@ -19,7 +19,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/login.png)
 
-> Prior to this, created a new Bash terminal in the bottom right corner of my Visual Studio code editor.  Typed in my SSH log in credentials (following the implementation of my SSH key through my personal laptop to my server account, so my password was not prompted).
+> Prior to this, created a new Bash terminal in the bottom right corner of my Visual Studio code editor.  Typed in `ssh cs15lwi23auh@ieng6.ucsd.edu` followed by `<enter>` (following the implementation of my SSH key through my personal laptop to my server account, so my password was not prompted).
 
 ![Image](lab7report/loginafter.png)
 
