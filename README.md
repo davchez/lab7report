@@ -19,7 +19,9 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/login.png)
 
-> Prior to this, created a new Bash terminal in the bottom right corner of my Visual Studio code editor.  Typed in `ssh cs15lwi23auh@ieng6.ucsd.edu` followed by `<enter>` (following the implementation of my SSH key through my personal laptop to my server account, so my password was not prompted).
+> Prior to this, created a new Bash terminal in the bottom right corner of my Visual Studio code editor.  Typed in: 
+> `ssh cs15lwi23auh@ieng6.ucsd.edu` + `<enter>` 
+> Following the implementation of my SSH key through my personal laptop to my server account, my password was no longer needed to log in.
 
 ![Image](lab7report/loginafter.png)
 
@@ -31,7 +33,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/gitclone.png)
 
-> Used the "git clone" bash terminal command to clone the fork of my new Lab 7 repository and used the repository-specific SSH link (not HTTPS link) to ensure that all future adds, commits, and pushes were successful in the future.
+> Used `git clone git@github.com:davchez/lab7.git` + `<enter>` to clone the fork of my new Lab 7 repository and used the repository-specific SSH link (not HTTPS link) to ensure that all future adds, commits, and pushes were successful in the future.
 
 ![Image](lab7report/gitcloneafter.png)
 
@@ -43,7 +45,11 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/junitfail.png)
 
-> Changed my directory into the lab7 folder (cd lab7), then copy and pasted the jUnit compile and run command from the week 3 lab website into my bash terminal.  ListExamplesTester detected a time-out error on one of its tests, implying that there exists some form of forever loop or unbreakable code in ListExamples.
+> Typed in: 
+> `cd lab 7`.  
+> `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+> `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org junit.runner.JUnitCore ListExamplesTests
+> ListExamplesTester detected a time-out error on one of its tests, implying that there exists some form of forever loop or unbreakable code in ListExamples.
 
 <br>
 
@@ -57,7 +63,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 > (Actual keys pressed below.)  Accessed the nano terminal editing screen to change line 43 from "index1 += 1" to "index2 += 1", which was the cause of the time-out error on the JUnit test.
 
-> _Keys pressed:_ `pressed <down> 43 times, pressed <right> 14 times, <backspace>`
+> _Keys pressed:_ `<ctrl> + <W>`, pressed `<right>` 14 times, <backspace>`
 
 ![Image](lab7report/nanoedit.png)
 
@@ -65,7 +71,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/nanosave.png)
 
-> (Actual keys pressed below).  Pressed ctrl-O to save my changes and to ensure that it was being saved to the right filename.
+> (Actual keys pressed below).  Pressed `<ctrl> + <O>` to save my changes and to ensure that it was being saved to the right filename.
 
 > _Keys pressed:_ `<ctrl> + <O>, <enter>`
 
