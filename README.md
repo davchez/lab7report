@@ -20,7 +20,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 ![Image](lab7report/login.png)
 
 > Prior to this, created a new Bash terminal in the bottom right corner of my Visual Studio code editor.  Typed in: 
-> `ssh cs15lwi23auh@ieng6.ucsd.edu` + `<enter>` 
+> `ssh cs15lwi23auh@ieng6.ucsd.edu`, `<enter>` 
 > Following the implementation of my SSH key through my personal laptop to my server account, my password was no longer needed to log in.
 
 ![Image](lab7report/loginafter.png)
@@ -33,7 +33,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/gitclone.png)
 
-> Used `git clone git@github.com:davchez/lab7.git` + `<enter>` to clone the fork of my new Lab 7 repository and used the repository-specific SSH link (not HTTPS link) to ensure that all future adds, commits, and pushes were successful in the future.
+> Used `git clone git@github.com:davchez/lab7.git`, `<enter>` to clone the fork of my new Lab 7 repository and used the repository-specific SSH link (not HTTPS link) to ensure that all future adds, commits, and pushes were successful in the future.
 
 ![Image](lab7report/gitcloneafter.png)
 
@@ -46,9 +46,9 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 ![Image](lab7report/junitfail.png)
 
 > Typed in: <br>
-> `cd lab 7` + `<enter>`. <br>
-> `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` + `<enter>` <br>
-> `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` + `<enter>` <br>
+> `cd lab 7`, `<enter>`. <br>
+> `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`, `<enter>` <br>
+> `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, `<enter>` <br>
 > ListExamplesTester detected a time-out error on one of its tests, implying that there exists some form of forever loop or unbreakable code in ListExamples.
 
 <br>
@@ -57,13 +57,13 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/nano.png)
 
-> Typed in `nano ListExamples.java` + `<enter>` to pull up the terminal editing screen for the Java file.
+> Typed in `nano ListExamples.java`, `<enter>` to pull up the terminal editing screen for the Java file.
 
 ![Image](lab7report/nanoafter.png)
 
 > (Actual keys pressed below.)  Accessed the nano terminal editing screen to change line 43 from "index1 += 1" to "index2 += 1", which was the cause of the time-out error on the JUnit test.
 
-> _Keys pressed:_ `<ctrl> + <W>`, typed in `index1 += 1` + `<enter>`, pressed `<right>` 14 times, <backspace>`
+> _Keys pressed:_ `<ctrl> + <W>`, typed in `index1 += 1`, `<enter>`, pressed `<right>` 14 times, <backspace>`
 
 ![Image](lab7report/nanoedit.png)
 
