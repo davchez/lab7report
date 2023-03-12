@@ -45,10 +45,10 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 ![Image](lab7report/junitfail.png)
 
-> Typed in: 
-> `cd lab 7`.  
-> `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-> `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org junit.runner.JUnitCore ListExamplesTests
+> Typed in: <br>
+> `cd lab 7`. <br>
+> `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` <br>
+> `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org junit.runner.JUnitCore ListExamplesTests` <br>
 > ListExamplesTester detected a time-out error on one of its tests, implying that there exists some form of forever loop or unbreakable code in ListExamples.
 
 <br>
