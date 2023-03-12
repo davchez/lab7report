@@ -29,7 +29,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 <br>
 
-## Step 3: Clonng my fork of the repository from my Github account
+## Step 3: Cloning my fork of the repository from my Github account
 
 ![Image](lab7report/gitclone.png)
 
