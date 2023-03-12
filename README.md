@@ -63,7 +63,7 @@ _David Sanchez, d4sanchez@ucsd.edu, A16854510_
 
 > (Actual keys pressed below.)  Accessed the nano terminal editing screen to change line 43 from "index1 += 1" to "index2 += 1", which was the cause of the time-out error on the JUnit test.
 
-> _Keys pressed:_ `<ctrl> + <W>`, typed in `index1 += 1`, `<enter>`, pressed `<right>` 14 times, <backspace>`
+> _Keys pressed:_ `<ctrl> + <W>`, typed in `index1 += 1`, `<enter>`, pressed `<right>` 14 times, `<backspace>`
 
 ![Image](lab7report/nanoedit.png)
 
